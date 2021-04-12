@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: black;
+}
+
+.slider{
+  width: 50%;
+  margin: auto;
+}
+
+.slider__inner{
+  position: relative;
+  overflow: hidden;
+}
+
+.slider__item{
+  width: 100%;
+  position: absolute;
+  
+}
+
+.slider__controls{
+  display: flex;
+  justify-content: center;
+}
+
+.slider__prev,
+.slider__next{
+  padding: 10px;
+}
